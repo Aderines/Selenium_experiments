@@ -10,9 +10,11 @@
 -дополнить тесты на поиск еще другими сценариями
 -пощупать requirements
 
-Общая информация:
--как запускать allure:
-allure serve allure_results (allure_results - папка с тестами, запускается через PowerShell
+Общая информация для запуска черзе консоль:
+-как прогнать тесты:
+python -m pytest test_search.py --alluredir allure_results (allure_results - папка с результатами тестов)
+-как собрать allure-отчет:
+allure serve allure_results
 
 Что узнано нового:
 SELENIUM. Как вытаскивать текст из тегов
